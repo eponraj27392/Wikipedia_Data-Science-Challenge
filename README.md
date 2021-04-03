@@ -17,17 +17,43 @@ python -m pip install --upgrade pip
 ## Preprocessing
 
 
-A simple preprocessing class is created to read data from the ``database (sqlite3 - lightweight disk-based database)`` as ``pandas DF (data frame)``.
+A simple preprocessing class is created to read data from the ``database (sqlite3 - lightweight disk-based database)`` as ``pandas DF (data frame)``
+
+Preprocessing class contains some methos which helps us to form a clean DF, which can be used further for Data Visualization.
 
 It ``outputs 2 DF``, which can be used further for plotting desired metrics
 
-Refer,  ```preprocess.py```
+Refer,  **preprocess.py**
 
 
 
 ## Streaming Live Data from API
 
+As the challenge required to stream the wiki edit data using an API, I used SQLite3 to stream all the data into a data base.
 
+For more information about SQLite3, refer [SQLite3](https://docs.python.org/3/library/sqlite3.html)
+
+I have connected to SQLite DB and stored all json formatted API data in to SQL DB Table ```(DB = WikiEventStream.db ; TableName = WikiEventStreams)```
+
+Two parameters involved to run the script ``StreamWikiSQL.py` 
+
+1) url        = from which API-url we run  streams. [Default](https://stream.wikimedia.org/v2/stream/recentchange)
+
+2) run_time  = How much time in minutes to run the Live stream & store our data in SQLite3 DB 
+   
+   (run_time  = None (No end time ; Default) 
+    run_time =  5, any int value represent minutes)
+  
+  
+```sh
+python -m StreamWikiSQL
+```   
+  
+To change any parameters run..
+
+```sh
+python -m StreamWikiSQL --url https://stream.wikimedia.org/v2/stream/recentchange -- run_time 5
+```
 
 
 
