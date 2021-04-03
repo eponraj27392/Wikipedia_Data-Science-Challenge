@@ -72,8 +72,7 @@ To change any parameters run..
 python -m StreamWikiSQL --url https://stream.wikimedia.org/v2/stream/recentchange -- run_time 5
 ```
 
-
-**Web App using DASH**
+## Web App using DASH
 
 Personally I prefer plotly visualization tool for all my Data Analysis (or Data Story telling). 
 
@@ -94,7 +93,7 @@ Run the below code in console,
 python -m app
 ```   
 
-Results :
+App - Results :
 
   
 
