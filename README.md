@@ -93,7 +93,15 @@ Run the below code in console,
 python -m app
 ```   
 
-App - Results :
+
+**Run Dash App**
+
+
+
+
+**Dash App plot Results*
+
+
 
   
 
