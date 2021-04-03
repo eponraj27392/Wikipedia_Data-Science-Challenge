@@ -14,7 +14,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import pyarrow.parquet as pq
-import seaborn as sns
 import re
 from datetime import datetime
 from utils import *

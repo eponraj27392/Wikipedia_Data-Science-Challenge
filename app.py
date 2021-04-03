@@ -26,11 +26,6 @@ from dash.exceptions import PreventUpdate
 
 
 
-# Call the DB Live stream Class
-# streamer_class  = WikiEventStreamer(url = 'https://stream.wikimedia.org/v2/stream/recentchange', run_time = None)
-# streamer_class.stream_wiki_data()
-
-
 metrics_updation_time = 4
 app = dash.Dash(__name__)
 
