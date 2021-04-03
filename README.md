@@ -94,13 +94,18 @@ python -m app
 ```   
 
 
+
 **Run Dash App**
+
+
 ![DashAppServer](https://github.com/eponraj27392/Wikipedia_Data-Science-Challenge/blob/main/dash.PNG)
 
 
 
 
 **Dash App plot Results*
+
+
 ![DynamicPlottingImage](https://github.com/eponraj27392/Wikipedia_Data-Science-Challenge/blob/main/editspermin.PNG)
 
 
