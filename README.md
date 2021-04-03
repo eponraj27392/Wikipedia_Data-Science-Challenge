@@ -61,7 +61,7 @@ Two parameters involved to run the script ``StreamWikiSQL.py`
    (run_time  = None (No end time ; Default) 
                 or run_time =  5, any int value represent minutes)
   
-  
+ 
 ```sh
 python -m StreamWikiSQL
 ```   
@@ -73,22 +73,29 @@ python -m StreamWikiSQL --url https://stream.wikimedia.org/v2/stream/recentchang
 ```
 
 
+**Web App using DASH**
 
+Personally I prefer plotly visualization tool for all my Data Analysis (or Data Story telling). 
 
+So I use Dash, from plotly, which helps us to develop web-based data visualization interfaces by putting together Plotly, React, and Flask.
 
-The proprocessing steps include 
-[Preprocessing](preprocessing_wzl/README.md)
+For more information refer to [Dash](https://plotly.com/dash/)
 
-for further information on configuring the preprocessing pipeline.
+For this challenge I made a simple web app, 
 
-
-**Preprocessing SFTP file (Data from Workshop)**
-
-To create a *.csv file from SFTP xlsm file you need to copy the file into the folder ``data/SFTP/``
-Then you can run the script
+   * which connect the WikiEventStream.db (SQLite3 DB) --> preprocess the data --> plot a simple line graph dynamically (either stored data or live data)
+   * The line graph will gets updated every 15 minutes of data with a desired time resolution is every minute.
+   * For this challenge I have plotted dynamically Global Wikipedia language Edits per minute graph direcly from API.
+   * To use a different metrics just tweek the parameters inside the file, **app.py**
+ 
+Run the below code in console,
 
 ```sh
-python -m scripts.preprocess_sftp
-```
+python -m app
+```   
 
-The timestep is set to 4ms. SOC, battery_id, engine_type, engine_type_id und engine_capacity are currently set to ``nan``. If data is available the script needs to be updated. 
+Results :
+
+  
+
+
