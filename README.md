@@ -26,6 +26,23 @@ It ``outputs 2 DF``, which can be used further for plotting desired metrics
 Refer,  **preprocess.py**
 
 
+## Exploratory Data Analysis
+
+A comprehensive Exploratory Data Analysis for the Wikepedia Stream data with tidy ``python`` using a nice visualization library ``plotly``.
+
+For this analysis, I have used the given challenge data downloaded from [Wetransfer](https://we.tl/t-jtMv3FS1rI) 
+
+The data contains ``73565 rows & 38 columns`` of wikipedia API stream data ``between 17:11 till 18: 13 on Jan 21, 2021``. 
+
+I explored **13 important topics** which satisfy the challenge requirements and also additional topics which explains the data a visual manner.
+
+Refer to  **Exxeta_DataScienceChallenge.ipynb**
+
+
+*Note* :
+
+Since I have used Google Colab for my analysis, if you are using Jupyter Notebook, kindly chnage the file path parameters.
+
 
 ## Streaming Live Data from API
 
@@ -42,7 +59,7 @@ Two parameters involved to run the script ``StreamWikiSQL.py`
 2) run_time  = How much time in minutes to run the Live stream & store our data in SQLite3 DB 
    
    (run_time  = None (No end time ; Default) 
-    run_time =  5, any int value represent minutes)
+                or run_time =  5, any int value represent minutes)
   
   
 ```sh
@@ -54,6 +71,8 @@ To change any parameters run..
 ```sh
 python -m StreamWikiSQL --url https://stream.wikimedia.org/v2/stream/recentchange -- run_time 5
 ```
+
+
 
 
 
