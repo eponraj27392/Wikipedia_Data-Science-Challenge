@@ -17,7 +17,19 @@ python -m pip install --upgrade pip
 ## Preprocessing
 
 
-A simple preprocess class is created to read the data as pandas df and ``output 2 DF's``
+A simple preprocessing class is created to read data from the ``database (sqlite3 - lightweight disk-based database)`` as ``pandas DF (data frame)``.
+
+It ``outputs 2 DF``, which can be used further for plotting desired metrics
+
+Refer,  ```preprocess.py```
+
+
+
+## Streaming Live Data from API
+
+
+
+
 
 The proprocessing steps include 
 [Preprocessing](preprocessing_wzl/README.md)
