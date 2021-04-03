@@ -105,6 +105,9 @@ python -m app
 
 **Dash App plot Results**
 
+```sh
+Consider this as a starting point for app/dashboard dev, I plotted, global languages edit occur in Wikipedia every minute.
+``` 
 
 ![DynamicPlottingImage](https://github.com/eponraj27392/Wikipedia_Data-Science-Challenge/blob/main/editspermin.PNG)
 
