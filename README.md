@@ -36,7 +36,7 @@ The data contains ``73565 rows & 38 columns`` of wikipedia API stream data ``bet
 
 I explored **13 important topics** which will be the starting point in understanding the dataset
 
-Refer to  **DataScienceExploration.ipynb**
+Refer to  **Wikipedia_EDA.ipynb**
 
 
 *Note* :
