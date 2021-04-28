@@ -1,4 +1,4 @@
-# Wikipedia_Data-Science-Challenge
+# Wikipedia_Data-Science-Exploration
 
 
 Install all the necessary libraries using
@@ -19,7 +19,7 @@ python -m pip install --upgrade pip
 
 A simple preprocessing class is created to read data from the ``database (sqlite3 - lightweight disk-based database)`` as ``pandas DF (data frame)``
 
-Preprocessing class contains some methos which helps us to form a clean DF, which can be used further for Data Visualization.
+Preprocessing class contains some methods which helps us to form a clean DF, which can be used further for Data Visualization.
 
 It ``outputs 2 DF``, which can be used further for plotting desired metrics
 
@@ -30,7 +30,7 @@ Refer,  **preprocess.py**
 
 A comprehensive Exploratory Data Analysis for the Wikepedia Stream data with tidy ``python`` using a nice visualization library ``plotly``.
 
-For this analysis, I have used the given challenge data downloaded as json from Wiki API. (Just a sample data for understanding)
+For this analysis, I have downloaded as json from Wiki API and converted to csv. (Just a sample data for understanding)
 
 The data contains ``73565 rows & 38 columns`` of wikipedia API stream data ``between 17:11 till 18: 13 on Jan 21, 2021``. 
 
