@@ -30,23 +30,23 @@ Refer,  **preprocess.py**
 
 A comprehensive Exploratory Data Analysis for the Wikepedia Stream data with tidy ``python`` using a nice visualization library ``plotly``.
 
-For this analysis, I have used the given challenge data downloaded from [Wetransfer](https://we.tl/t-jtMv3FS1rI) 
+For this analysis, I have used the given challenge data downloaded as json from Wiki API. (Just a sample data for understanding)
 
 The data contains ``73565 rows & 38 columns`` of wikipedia API stream data ``between 17:11 till 18: 13 on Jan 21, 2021``. 
 
-I explored **13 important topics** which satisfy the challenge requirements and also additional topics which explains the data a visual manner.
+I explored **13 important topics** which will be the starting point in understanding the dataset
 
-Refer to  **Exxeta_DataScienceChallenge.ipynb**
+Refer to  **DataScienceExploration.ipynb**
 
 
 *Note* :
 
-Since I have used Google Colab for my analysis, if you are using Jupyter Notebook, kindly chnage the file path parameters.
+Since I have used Google Colab for my analysis, if you are using Jupyter Notebook, kindly change the file path parameters.
 
 
 ## Streaming Live Data from API
 
-As the challenge required to stream the wiki edit data using an API, I used SQLite3 to stream all the data into a data base.
+To stream the wiki edit data using an API, I used SQLite3 to stream all the data into a data base.
 
 For more information about SQLite3, refer [SQLite3](https://docs.python.org/3/library/sqlite3.html)
 
@@ -80,7 +80,7 @@ So I use Dash, from plotly, which helps us to develop web-based data visualizati
 
 For more information refer to [Dash](https://plotly.com/dash/)
 
-For this challenge I made a simple web app, 
+For this analysis I made a simple web app, 
 
    * which connect the WikiEventStream.db (SQLite3 DB) --> preprocess the data --> plot a simple line graph dynamically (either stored data or live data)
    * The line graph will gets updated every 15 minutes of data with a desired time resolution is every minute.
