@@ -96,7 +96,7 @@ python -m app
 **Pipeline/Architecture**
 
 
-![DashAppServer](https://github.com/eponraj27392/Wikipedia_Data-Science-Challenge/blob/main/pipeline.PNG)
+![DashAppServer](https://github.com/eponraj27392/Wikipedia_Data-Science-Challenge/blob/main/pipeline.png)
 
 
 
