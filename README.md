@@ -93,6 +93,13 @@ Run the below code in console,
 python -m app
 ```   
 
+**Pipeline/Architecture**
+
+
+![DashAppServer](https://github.com/eponraj27392/Wikipedia_Data-Science-Challenge/blob/main/pipeline.PNG)
+
+
+
 
 
 **Run Dash App**
@@ -111,8 +118,5 @@ Consider this as a starting point for app/dashboard dev, I plotted, global langu
 
 ![DynamicPlottingImage](https://github.com/eponraj27392/Wikipedia_Data-Science-Challenge/blob/main/editspermin.PNG)
 
-
-
-  
 
 
